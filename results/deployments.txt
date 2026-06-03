@@ -1,0 +1,2 @@
+NAME       READY   UP-TO-DATE   AVAILABLE   AGE
+nginx-ha   20/20   20           20          2m48s

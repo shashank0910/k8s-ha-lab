@@ -1,0 +1,25 @@
+NAME                                             READY   STATUS    RESTARTS        AGE
+coredns-674b8bbfcf-8bfgh                         1/1     Running   0               4h52m
+coredns-674b8bbfcf-s5v2s                         1/1     Running   0               4h52m
+etcd-prod-ha-control-plane                       1/1     Running   0               4h53m
+etcd-prod-ha-control-plane2                      1/1     Running   1 (4h39m ago)   4h52m
+etcd-prod-ha-control-plane3                      1/1     Running   0               4h51m
+kindnet-6cwwd                                    1/1     Running   1 (4h39m ago)   4h52m
+kindnet-72xwf                                    1/1     Running   1 (12m ago)     4h51m
+kindnet-d7x7k                                    1/1     Running   0               4h51m
+kindnet-gzd7p                                    1/1     Running   0               4h52m
+kindnet-wlttt                                    1/1     Running   0               4h51m
+kube-apiserver-prod-ha-control-plane             1/1     Running   0               4h53m
+kube-apiserver-prod-ha-control-plane2            1/1     Running   1 (4h39m ago)   4h52m
+kube-apiserver-prod-ha-control-plane3            1/1     Running   0               4h51m
+kube-controller-manager-prod-ha-control-plane    1/1     Running   0               4h53m
+kube-controller-manager-prod-ha-control-plane2   1/1     Running   1 (4h39m ago)   4h52m
+kube-controller-manager-prod-ha-control-plane3   1/1     Running   0               4h51m
+kube-proxy-jzkzv                                 1/1     Running   1 (4h39m ago)   4h52m
+kube-proxy-lq4hq                                 1/1     Running   0               4h52m
+kube-proxy-nwljj                                 1/1     Running   1 (12m ago)     4h51m
+kube-proxy-rvjsd                                 1/1     Running   0               4h51m
+kube-proxy-tq5r9                                 1/1     Running   0               4h51m
+kube-scheduler-prod-ha-control-plane             1/1     Running   0               4h53m
+kube-scheduler-prod-ha-control-plane2            1/1     Running   1 (4h39m ago)   4h52m
+kube-scheduler-prod-ha-control-plane3            1/1     Running   0               4h51m

@@ -1,0 +1,219 @@
+LAST SEEN   TYPE      REASON                    OBJECT                           MESSAGE
+49m         Normal    Killing                   pod/nginx-5869d7778c-247tg       Stopping container nginx
+49m         Normal    Killing                   pod/nginx-5869d7778c-4kx9j       Stopping container nginx
+49m         Normal    Killing                   pod/nginx-5869d7778c-99fzl       Stopping container nginx
+49m         Normal    Killing                   pod/nginx-5869d7778c-bdrjb       Stopping container nginx
+49m         Normal    Killing                   pod/nginx-5869d7778c-d9jhs       Stopping container nginx
+49m         Normal    Killing                   pod/nginx-5869d7778c-fd7sl       Stopping container nginx
+49m         Normal    Killing                   pod/nginx-5869d7778c-k66cz       Stopping container nginx
+49m         Normal    Killing                   pod/nginx-5869d7778c-n8sgc       Stopping container nginx
+49m         Normal    Killing                   pod/nginx-5869d7778c-tl87v       Stopping container nginx
+49m         Normal    Killing                   pod/nginx-5869d7778c-zj9sz       Stopping container nginx
+3m5s        Normal    Scheduled                 pod/nginx-ha-7d744949b7-254dc    Successfully assigned default/nginx-ha-7d744949b7-254dc to prod-ha-worker2
+3m4s        Normal    Pulling                   pod/nginx-ha-7d744949b7-254dc    Pulling image "nginx:latest"
+3m          Normal    Pulled                    pod/nginx-ha-7d744949b7-254dc    Successfully pulled image "nginx:latest" in 1.839s (3.952s including waiting). Image size: 63120520 bytes.
+3m          Normal    Created                   pod/nginx-ha-7d744949b7-254dc    Created container: nginx
+3m          Normal    Started                   pod/nginx-ha-7d744949b7-254dc    Started container nginx
+51m         Normal    Scheduled                 pod/nginx-ha-7d744949b7-2cr8c    Successfully assigned default/nginx-ha-7d744949b7-2cr8c to prod-ha-worker2
+51m         Normal    Pulling                   pod/nginx-ha-7d744949b7-2cr8c    Pulling image "nginx:latest"
+51m         Normal    Pulled                    pod/nginx-ha-7d744949b7-2cr8c    Successfully pulled image "nginx:latest" in 1.514s (13.481s including waiting). Image size: 63120520 bytes.
+51m         Normal    Created                   pod/nginx-ha-7d744949b7-2cr8c    Created container: nginx
+51m         Normal    Started                   pod/nginx-ha-7d744949b7-2cr8c    Started container nginx
+51m         Normal    Scheduled                 pod/nginx-ha-7d744949b7-2f5np    Successfully assigned default/nginx-ha-7d744949b7-2f5np to prod-ha-worker2
+51m         Normal    Pulling                   pod/nginx-ha-7d744949b7-2f5np    Pulling image "nginx:latest"
+51m         Normal    Pulled                    pod/nginx-ha-7d744949b7-2f5np    Successfully pulled image "nginx:latest" in 1.628s (1.628s including waiting). Image size: 63120520 bytes.
+51m         Normal    Created                   pod/nginx-ha-7d744949b7-2f5np    Created container: nginx
+51m         Normal    Started                   pod/nginx-ha-7d744949b7-2f5np    Started container nginx
+51m         Normal    Scheduled                 pod/nginx-ha-7d744949b7-59d4t    Successfully assigned default/nginx-ha-7d744949b7-59d4t to prod-ha-worker
+51m         Normal    Pulling                   pod/nginx-ha-7d744949b7-59d4t    Pulling image "nginx:latest"
+51m         Normal    Pulled                    pod/nginx-ha-7d744949b7-59d4t    Successfully pulled image "nginx:latest" in 1.511s (11.683s including waiting). Image size: 63120520 bytes.
+51m         Normal    Created                   pod/nginx-ha-7d744949b7-59d4t    Created container: nginx
+51m         Normal    Started                   pod/nginx-ha-7d744949b7-59d4t    Started container nginx
+8m10s       Warning   NodeNotReady              pod/nginx-ha-7d744949b7-59d4t    Node is not ready
+3m5s        Normal    TaintManagerEviction      pod/nginx-ha-7d744949b7-59d4t    Marking for deletion Pod default/nginx-ha-7d744949b7-59d4t
+77s         Warning   FailedMount               pod/nginx-ha-7d744949b7-59d4t    MountVolume.SetUp failed for volume "kube-api-access-mnl9f" : object "default"/"kube-root-ca.crt" not registered
+51m         Normal    Scheduled                 pod/nginx-ha-7d744949b7-7zmzn    Successfully assigned default/nginx-ha-7d744949b7-7zmzn to prod-ha-worker
+51m         Normal    Pulling                   pod/nginx-ha-7d744949b7-7zmzn    Pulling image "nginx:latest"
+51m         Normal    Pulled                    pod/nginx-ha-7d744949b7-7zmzn    Successfully pulled image "nginx:latest" in 1.559s (1.559s including waiting). Image size: 63120520 bytes.
+51m         Normal    Created                   pod/nginx-ha-7d744949b7-7zmzn    Created container: nginx
+51m         Normal    Started                   pod/nginx-ha-7d744949b7-7zmzn    Started container nginx
+8m10s       Warning   NodeNotReady              pod/nginx-ha-7d744949b7-7zmzn    Node is not ready
+3m5s        Normal    TaintManagerEviction      pod/nginx-ha-7d744949b7-7zmzn    Marking for deletion Pod default/nginx-ha-7d744949b7-7zmzn
+77s         Warning   FailedMount               pod/nginx-ha-7d744949b7-7zmzn    MountVolume.SetUp failed for volume "kube-api-access-tqp9d" : object "default"/"kube-root-ca.crt" not registered
+3m5s        Normal    Scheduled                 pod/nginx-ha-7d744949b7-84gg2    Successfully assigned default/nginx-ha-7d744949b7-84gg2 to prod-ha-worker2
+3m4s        Normal    Pulling                   pod/nginx-ha-7d744949b7-84gg2    Pulling image "nginx:latest"
+2m53s       Normal    Pulled                    pod/nginx-ha-7d744949b7-84gg2    Successfully pulled image "nginx:latest" in 1.731s (10.726s including waiting). Image size: 63120520 bytes.
+2m53s       Normal    Created                   pod/nginx-ha-7d744949b7-84gg2    Created container: nginx
+2m53s       Normal    Started                   pod/nginx-ha-7d744949b7-84gg2    Started container nginx
+51m         Normal    Scheduled                 pod/nginx-ha-7d744949b7-8qjlq    Successfully assigned default/nginx-ha-7d744949b7-8qjlq to prod-ha-worker2
+51m         Normal    Pulling                   pod/nginx-ha-7d744949b7-8qjlq    Pulling image "nginx:latest"
+51m         Normal    Pulled                    pod/nginx-ha-7d744949b7-8qjlq    Successfully pulled image "nginx:latest" in 1.461s (14.923s including waiting). Image size: 63120520 bytes.
+51m         Normal    Created                   pod/nginx-ha-7d744949b7-8qjlq    Created container: nginx
+51m         Normal    Started                   pod/nginx-ha-7d744949b7-8qjlq    Started container nginx
+51m         Normal    Scheduled                 pod/nginx-ha-7d744949b7-9bs7h    Successfully assigned default/nginx-ha-7d744949b7-9bs7h to prod-ha-worker2
+51m         Normal    Pulling                   pod/nginx-ha-7d744949b7-9bs7h    Pulling image "nginx:latest"
+51m         Normal    Pulled                    pod/nginx-ha-7d744949b7-9bs7h    Successfully pulled image "nginx:latest" in 1.656s (6.187s including waiting). Image size: 63120520 bytes.
+51m         Normal    Created                   pod/nginx-ha-7d744949b7-9bs7h    Created container: nginx
+51m         Normal    Started                   pod/nginx-ha-7d744949b7-9bs7h    Started container nginx
+51m         Normal    Scheduled                 pod/nginx-ha-7d744949b7-9tml4    Successfully assigned default/nginx-ha-7d744949b7-9tml4 to prod-ha-worker
+51m         Normal    Pulling                   pod/nginx-ha-7d744949b7-9tml4    Pulling image "nginx:latest"
+51m         Normal    Pulled                    pod/nginx-ha-7d744949b7-9tml4    Successfully pulled image "nginx:latest" in 1.517s (8.684s including waiting). Image size: 63120520 bytes.
+51m         Normal    Created                   pod/nginx-ha-7d744949b7-9tml4    Created container: nginx
+51m         Normal    Started                   pod/nginx-ha-7d744949b7-9tml4    Started container nginx
+8m10s       Warning   NodeNotReady              pod/nginx-ha-7d744949b7-9tml4    Node is not ready
+3m5s        Normal    TaintManagerEviction      pod/nginx-ha-7d744949b7-9tml4    Marking for deletion Pod default/nginx-ha-7d744949b7-9tml4
+77s         Warning   FailedMount               pod/nginx-ha-7d744949b7-9tml4    MountVolume.SetUp failed for volume "kube-api-access-lmkzf" : object "default"/"kube-root-ca.crt" not registered
+51m         Normal    Scheduled                 pod/nginx-ha-7d744949b7-9tn6q    Successfully assigned default/nginx-ha-7d744949b7-9tn6q to prod-ha-worker2
+51m         Normal    Pulling                   pod/nginx-ha-7d744949b7-9tn6q    Pulling image "nginx:latest"
+51m         Normal    Pulled                    pod/nginx-ha-7d744949b7-9tn6q    Successfully pulled image "nginx:latest" in 1.538s (3.082s including waiting). Image size: 63120520 bytes.
+51m         Normal    Created                   pod/nginx-ha-7d744949b7-9tn6q    Created container: nginx
+51m         Normal    Started                   pod/nginx-ha-7d744949b7-9tn6q    Started container nginx
+51m         Normal    Scheduled                 pod/nginx-ha-7d744949b7-b8bj5    Successfully assigned default/nginx-ha-7d744949b7-b8bj5 to prod-ha-worker
+51m         Normal    Pulling                   pod/nginx-ha-7d744949b7-b8bj5    Pulling image "nginx:latest"
+51m         Normal    Pulled                    pod/nginx-ha-7d744949b7-b8bj5    Successfully pulled image "nginx:latest" in 1.538s (7.171s including waiting). Image size: 63120520 bytes.
+51m         Normal    Created                   pod/nginx-ha-7d744949b7-b8bj5    Created container: nginx
+51m         Normal    Started                   pod/nginx-ha-7d744949b7-b8bj5    Started container nginx
+8m10s       Warning   NodeNotReady              pod/nginx-ha-7d744949b7-b8bj5    Node is not ready
+3m5s        Normal    TaintManagerEviction      pod/nginx-ha-7d744949b7-b8bj5    Marking for deletion Pod default/nginx-ha-7d744949b7-b8bj5
+77s         Warning   FailedMount               pod/nginx-ha-7d744949b7-b8bj5    MountVolume.SetUp failed for volume "kube-api-access-57hxv" : object "default"/"kube-root-ca.crt" not registered
+51m         Normal    Scheduled                 pod/nginx-ha-7d744949b7-cmtrd    Successfully assigned default/nginx-ha-7d744949b7-cmtrd to prod-ha-worker
+51m         Normal    Pulling                   pod/nginx-ha-7d744949b7-cmtrd    Pulling image "nginx:latest"
+51m         Normal    Pulled                    pod/nginx-ha-7d744949b7-cmtrd    Successfully pulled image "nginx:latest" in 1.528s (14.729s including waiting). Image size: 63120520 bytes.
+51m         Normal    Created                   pod/nginx-ha-7d744949b7-cmtrd    Created container: nginx
+51m         Normal    Started                   pod/nginx-ha-7d744949b7-cmtrd    Started container nginx
+8m10s       Warning   NodeNotReady              pod/nginx-ha-7d744949b7-cmtrd    Node is not ready
+3m5s        Normal    TaintManagerEviction      pod/nginx-ha-7d744949b7-cmtrd    Marking for deletion Pod default/nginx-ha-7d744949b7-cmtrd
+77s         Warning   FailedMount               pod/nginx-ha-7d744949b7-cmtrd    MountVolume.SetUp failed for volume "kube-api-access-fvdps" : object "default"/"kube-root-ca.crt" not registered
+3m5s        Normal    Scheduled                 pod/nginx-ha-7d744949b7-cq27n    Successfully assigned default/nginx-ha-7d744949b7-cq27n to prod-ha-worker2
+3m4s        Normal    Pulling                   pod/nginx-ha-7d744949b7-cq27n    Pulling image "nginx:latest"
+2m50s       Normal    Pulled                    pod/nginx-ha-7d744949b7-cq27n    Successfully pulled image "nginx:latest" in 1.516s (13.873s including waiting). Image size: 63120520 bytes.
+2m50s       Normal    Created                   pod/nginx-ha-7d744949b7-cq27n    Created container: nginx
+2m49s       Normal    Started                   pod/nginx-ha-7d744949b7-cq27n    Started container nginx
+3m5s        Normal    Scheduled                 pod/nginx-ha-7d744949b7-dm65s    Successfully assigned default/nginx-ha-7d744949b7-dm65s to prod-ha-worker2
+3m4s        Normal    Pulling                   pod/nginx-ha-7d744949b7-dm65s    Pulling image "nginx:latest"
+2m56s       Normal    Pulled                    pod/nginx-ha-7d744949b7-dm65s    Successfully pulled image "nginx:latest" in 1.892s (7.369s including waiting). Image size: 63120520 bytes.
+2m56s       Normal    Created                   pod/nginx-ha-7d744949b7-dm65s    Created container: nginx
+2m56s       Normal    Started                   pod/nginx-ha-7d744949b7-dm65s    Started container nginx
+51m         Normal    Scheduled                 pod/nginx-ha-7d744949b7-fjwjv    Successfully assigned default/nginx-ha-7d744949b7-fjwjv to prod-ha-worker
+51m         Normal    Pulling                   pod/nginx-ha-7d744949b7-fjwjv    Pulling image "nginx:latest"
+51m         Normal    Pulled                    pod/nginx-ha-7d744949b7-fjwjv    Successfully pulled image "nginx:latest" in 1.511s (10.173s including waiting). Image size: 63120520 bytes.
+51m         Normal    Created                   pod/nginx-ha-7d744949b7-fjwjv    Created container: nginx
+51m         Normal    Started                   pod/nginx-ha-7d744949b7-fjwjv    Started container nginx
+8m10s       Warning   NodeNotReady              pod/nginx-ha-7d744949b7-fjwjv    Node is not ready
+3m5s        Normal    TaintManagerEviction      pod/nginx-ha-7d744949b7-fjwjv    Marking for deletion Pod default/nginx-ha-7d744949b7-fjwjv
+77s         Warning   FailedMount               pod/nginx-ha-7d744949b7-fjwjv    MountVolume.SetUp failed for volume "kube-api-access-clkzl" : object "default"/"kube-root-ca.crt" not registered
+51m         Normal    Scheduled                 pod/nginx-ha-7d744949b7-fz6bx    Successfully assigned default/nginx-ha-7d744949b7-fz6bx to prod-ha-worker
+51m         Normal    Pulling                   pod/nginx-ha-7d744949b7-fz6bx    Pulling image "nginx:latest"
+51m         Normal    Pulled                    pod/nginx-ha-7d744949b7-fz6bx    Successfully pulled image "nginx:latest" in 1.567s (5.82s including waiting). Image size: 63120520 bytes.
+51m         Normal    Created                   pod/nginx-ha-7d744949b7-fz6bx    Created container: nginx
+51m         Normal    Started                   pod/nginx-ha-7d744949b7-fz6bx    Started container nginx
+8m10s       Warning   NodeNotReady              pod/nginx-ha-7d744949b7-fz6bx    Node is not ready
+3m5s        Normal    TaintManagerEviction      pod/nginx-ha-7d744949b7-fz6bx    Marking for deletion Pod default/nginx-ha-7d744949b7-fz6bx
+77s         Warning   FailedMount               pod/nginx-ha-7d744949b7-fz6bx    MountVolume.SetUp failed for volume "kube-api-access-h8vv2" : object "default"/"kube-root-ca.crt" not registered
+51m         Normal    Scheduled                 pod/nginx-ha-7d744949b7-j5f9k    Successfully assigned default/nginx-ha-7d744949b7-j5f9k to prod-ha-worker2
+51m         Normal    Pulling                   pod/nginx-ha-7d744949b7-j5f9k    Pulling image "nginx:latest"
+51m         Normal    Pulled                    pod/nginx-ha-7d744949b7-j5f9k    Successfully pulled image "nginx:latest" in 1.569s (10.373s including waiting). Image size: 63120520 bytes.
+51m         Normal    Created                   pod/nginx-ha-7d744949b7-j5f9k    Created container: nginx
+51m         Normal    Started                   pod/nginx-ha-7d744949b7-j5f9k    Started container nginx
+51m         Normal    Scheduled                 pod/nginx-ha-7d744949b7-kbwrm    Successfully assigned default/nginx-ha-7d744949b7-kbwrm to prod-ha-worker2
+51m         Normal    Pulling                   pod/nginx-ha-7d744949b7-kbwrm    Pulling image "nginx:latest"
+51m         Normal    Pulled                    pod/nginx-ha-7d744949b7-kbwrm    Successfully pulled image "nginx:latest" in 1.491s (7.423s including waiting). Image size: 63120520 bytes.
+51m         Normal    Created                   pod/nginx-ha-7d744949b7-kbwrm    Created container: nginx
+51m         Normal    Started                   pod/nginx-ha-7d744949b7-kbwrm    Started container nginx
+51m         Normal    Scheduled                 pod/nginx-ha-7d744949b7-nxzfv    Successfully assigned default/nginx-ha-7d744949b7-nxzfv to prod-ha-worker
+51m         Normal    Pulling                   pod/nginx-ha-7d744949b7-nxzfv    Pulling image "nginx:latest"
+51m         Normal    Pulled                    pod/nginx-ha-7d744949b7-nxzfv    Successfully pulled image "nginx:latest" in 1.541s (13.208s including waiting). Image size: 63120520 bytes.
+51m         Normal    Created                   pod/nginx-ha-7d744949b7-nxzfv    Created container: nginx
+51m         Normal    Started                   pod/nginx-ha-7d744949b7-nxzfv    Started container nginx
+8m10s       Warning   NodeNotReady              pod/nginx-ha-7d744949b7-nxzfv    Node is not ready
+3m5s        Normal    TaintManagerEviction      pod/nginx-ha-7d744949b7-nxzfv    Marking for deletion Pod default/nginx-ha-7d744949b7-nxzfv
+77s         Warning   FailedMount               pod/nginx-ha-7d744949b7-nxzfv    MountVolume.SetUp failed for volume "kube-api-access-sn6n6" : object "default"/"kube-root-ca.crt" not registered
+51m         Normal    Scheduled                 pod/nginx-ha-7d744949b7-pdjqc    Successfully assigned default/nginx-ha-7d744949b7-pdjqc to prod-ha-worker
+51m         Normal    Pulling                   pod/nginx-ha-7d744949b7-pdjqc    Pulling image "nginx:latest"
+51m         Normal    Pulled                    pod/nginx-ha-7d744949b7-pdjqc    Successfully pulled image "nginx:latest" in 1.605s (4.39s including waiting). Image size: 63120520 bytes.
+51m         Normal    Created                   pod/nginx-ha-7d744949b7-pdjqc    Created container: nginx
+51m         Normal    Started                   pod/nginx-ha-7d744949b7-pdjqc    Started container nginx
+8m10s       Warning   NodeNotReady              pod/nginx-ha-7d744949b7-pdjqc    Node is not ready
+3m5s        Normal    TaintManagerEviction      pod/nginx-ha-7d744949b7-pdjqc    Marking for deletion Pod default/nginx-ha-7d744949b7-pdjqc
+77s         Warning   FailedMount               pod/nginx-ha-7d744949b7-pdjqc    MountVolume.SetUp failed for volume "kube-api-access-x4rnm" : object "default"/"kube-root-ca.crt" not registered
+3m5s        Normal    Scheduled                 pod/nginx-ha-7d744949b7-phd9s    Successfully assigned default/nginx-ha-7d744949b7-phd9s to prod-ha-worker2
+3m4s        Normal    Pulling                   pod/nginx-ha-7d744949b7-phd9s    Pulling image "nginx:latest"
+2m48s       Normal    Pulled                    pod/nginx-ha-7d744949b7-phd9s    Successfully pulled image "nginx:latest" in 1.821s (15.691s including waiting). Image size: 63120520 bytes.
+2m48s       Normal    Created                   pod/nginx-ha-7d744949b7-phd9s    Created container: nginx
+2m48s       Normal    Started                   pod/nginx-ha-7d744949b7-phd9s    Started container nginx
+3m5s        Normal    Scheduled                 pod/nginx-ha-7d744949b7-qmnrz    Successfully assigned default/nginx-ha-7d744949b7-qmnrz to prod-ha-worker2
+3m4s        Normal    Pulling                   pod/nginx-ha-7d744949b7-qmnrz    Pulling image "nginx:latest"
+3m2s        Normal    Pulled                    pod/nginx-ha-7d744949b7-qmnrz    Successfully pulled image "nginx:latest" in 2.147s (2.147s including waiting). Image size: 63120520 bytes.
+3m2s        Normal    Created                   pod/nginx-ha-7d744949b7-qmnrz    Created container: nginx
+3m1s        Normal    Started                   pod/nginx-ha-7d744949b7-qmnrz    Started container nginx
+51m         Normal    Scheduled                 pod/nginx-ha-7d744949b7-rrj2q    Successfully assigned default/nginx-ha-7d744949b7-rrj2q to prod-ha-worker2
+51m         Normal    Pulling                   pod/nginx-ha-7d744949b7-rrj2q    Pulling image "nginx:latest"
+51m         Normal    Pulled                    pod/nginx-ha-7d744949b7-rrj2q    Successfully pulled image "nginx:latest" in 1.53s (8.821s including waiting). Image size: 63120520 bytes.
+51m         Normal    Created                   pod/nginx-ha-7d744949b7-rrj2q    Created container: nginx
+51m         Normal    Started                   pod/nginx-ha-7d744949b7-rrj2q    Started container nginx
+3m5s        Normal    Scheduled                 pod/nginx-ha-7d744949b7-rtgdf    Successfully assigned default/nginx-ha-7d744949b7-rtgdf to prod-ha-worker2
+3m4s        Normal    Pulling                   pod/nginx-ha-7d744949b7-rtgdf    Pulling image "nginx:latest"
+2m46s       Normal    Pulled                    pod/nginx-ha-7d744949b7-rtgdf    Successfully pulled image "nginx:latest" in 1.774s (17.427s including waiting). Image size: 63120520 bytes.
+2m46s       Normal    Created                   pod/nginx-ha-7d744949b7-rtgdf    Created container: nginx
+2m46s       Normal    Started                   pod/nginx-ha-7d744949b7-rtgdf    Started container nginx
+51m         Normal    Scheduled                 pod/nginx-ha-7d744949b7-sd597    Successfully assigned default/nginx-ha-7d744949b7-sd597 to prod-ha-worker
+51m         Normal    Pulling                   pod/nginx-ha-7d744949b7-sd597    Pulling image "nginx:latest"
+51m         Normal    Pulled                    pod/nginx-ha-7d744949b7-sd597    Successfully pulled image "nginx:latest" in 1.505s (2.956s including waiting). Image size: 63120520 bytes.
+51m         Normal    Created                   pod/nginx-ha-7d744949b7-sd597    Created container: nginx
+51m         Normal    Started                   pod/nginx-ha-7d744949b7-sd597    Started container nginx
+8m10s       Warning   NodeNotReady              pod/nginx-ha-7d744949b7-sd597    Node is not ready
+3m5s        Normal    TaintManagerEviction      pod/nginx-ha-7d744949b7-sd597    Marking for deletion Pod default/nginx-ha-7d744949b7-sd597
+77s         Warning   FailedMount               pod/nginx-ha-7d744949b7-sd597    MountVolume.SetUp failed for volume "kube-api-access-zqcnb" : object "default"/"kube-root-ca.crt" not registered
+3m5s        Normal    Scheduled                 pod/nginx-ha-7d744949b7-slzm6    Successfully assigned default/nginx-ha-7d744949b7-slzm6 to prod-ha-worker2
+3m4s        Normal    Pulling                   pod/nginx-ha-7d744949b7-slzm6    Pulling image "nginx:latest"
+2m55s       Normal    Pulled                    pod/nginx-ha-7d744949b7-slzm6    Successfully pulled image "nginx:latest" in 1.772s (9.021s including waiting). Image size: 63120520 bytes.
+2m55s       Normal    Created                   pod/nginx-ha-7d744949b7-slzm6    Created container: nginx
+2m54s       Normal    Started                   pod/nginx-ha-7d744949b7-slzm6    Started container nginx
+51m         Normal    Scheduled                 pod/nginx-ha-7d744949b7-sm5w2    Successfully assigned default/nginx-ha-7d744949b7-sm5w2 to prod-ha-worker2
+51m         Normal    Pulling                   pod/nginx-ha-7d744949b7-sm5w2    Pulling image "nginx:latest"
+51m         Normal    Pulled                    pod/nginx-ha-7d744949b7-sm5w2    Successfully pulled image "nginx:latest" in 1.597s (4.586s including waiting). Image size: 63120520 bytes.
+51m         Normal    Created                   pod/nginx-ha-7d744949b7-sm5w2    Created container: nginx
+51m         Normal    Started                   pod/nginx-ha-7d744949b7-sm5w2    Started container nginx
+51m         Normal    Scheduled                 pod/nginx-ha-7d744949b7-tcvcx    Successfully assigned default/nginx-ha-7d744949b7-tcvcx to prod-ha-worker2
+51m         Normal    Pulling                   pod/nginx-ha-7d744949b7-tcvcx    Pulling image "nginx:latest"
+51m         Normal    Pulled                    pod/nginx-ha-7d744949b7-tcvcx    Successfully pulled image "nginx:latest" in 1.627s (11.997s including waiting). Image size: 63120520 bytes.
+51m         Normal    Created                   pod/nginx-ha-7d744949b7-tcvcx    Created container: nginx
+51m         Normal    Started                   pod/nginx-ha-7d744949b7-tcvcx    Started container nginx
+3m5s        Normal    Scheduled                 pod/nginx-ha-7d744949b7-trmfd    Successfully assigned default/nginx-ha-7d744949b7-trmfd to prod-ha-worker2
+3m4s        Normal    Pulling                   pod/nginx-ha-7d744949b7-trmfd    Pulling image "nginx:latest"
+2m58s       Normal    Pulled                    pod/nginx-ha-7d744949b7-trmfd    Successfully pulled image "nginx:latest" in 1.613s (5.506s including waiting). Image size: 63120520 bytes.
+2m58s       Normal    Created                   pod/nginx-ha-7d744949b7-trmfd    Created container: nginx
+2m58s       Normal    Started                   pod/nginx-ha-7d744949b7-trmfd    Started container nginx
+3m5s        Normal    Scheduled                 pod/nginx-ha-7d744949b7-z8k52    Successfully assigned default/nginx-ha-7d744949b7-z8k52 to prod-ha-worker2
+3m4s        Normal    Pulling                   pod/nginx-ha-7d744949b7-z8k52    Pulling image "nginx:latest"
+2m51s       Normal    Pulled                    pod/nginx-ha-7d744949b7-z8k52    Successfully pulled image "nginx:latest" in 1.676s (12.381s including waiting). Image size: 63120520 bytes.
+2m51s       Normal    Created                   pod/nginx-ha-7d744949b7-z8k52    Created container: nginx
+2m51s       Normal    Started                   pod/nginx-ha-7d744949b7-z8k52    Started container nginx
+51m         Normal    SuccessfulCreate          replicaset/nginx-ha-7d744949b7   Created pod: nginx-ha-7d744949b7-2f5np
+51m         Normal    SuccessfulCreate          replicaset/nginx-ha-7d744949b7   Created pod: nginx-ha-7d744949b7-7zmzn
+51m         Normal    SuccessfulCreate          replicaset/nginx-ha-7d744949b7   Created pod: nginx-ha-7d744949b7-sm5w2
+51m         Normal    SuccessfulCreate          replicaset/nginx-ha-7d744949b7   Created pod: nginx-ha-7d744949b7-sd597
+51m         Normal    SuccessfulCreate          replicaset/nginx-ha-7d744949b7   Created pod: nginx-ha-7d744949b7-nxzfv
+51m         Normal    SuccessfulCreate          replicaset/nginx-ha-7d744949b7   Created pod: nginx-ha-7d744949b7-fjwjv
+51m         Normal    SuccessfulCreate          replicaset/nginx-ha-7d744949b7   Created pod: nginx-ha-7d744949b7-9tn6q
+51m         Normal    SuccessfulCreate          replicaset/nginx-ha-7d744949b7   Created pod: nginx-ha-7d744949b7-8qjlq
+51m         Normal    SuccessfulCreate          replicaset/nginx-ha-7d744949b7   Created pod: nginx-ha-7d744949b7-j5f9k
+3m5s        Normal    SuccessfulCreate          replicaset/nginx-ha-7d744949b7   (combined from similar events): Created pod: nginx-ha-7d744949b7-rtgdf
+3m5s        Normal    SuccessfulCreate          replicaset/nginx-ha-7d744949b7   Created pod: nginx-ha-7d744949b7-254dc
+3m5s        Normal    SuccessfulCreate          replicaset/nginx-ha-7d744949b7   Created pod: nginx-ha-7d744949b7-qmnrz
+3m5s        Normal    SuccessfulCreate          replicaset/nginx-ha-7d744949b7   Created pod: nginx-ha-7d744949b7-trmfd
+3m5s        Normal    SuccessfulCreate          replicaset/nginx-ha-7d744949b7   Created pod: nginx-ha-7d744949b7-dm65s
+3m5s        Normal    SuccessfulCreate          replicaset/nginx-ha-7d744949b7   Created pod: nginx-ha-7d744949b7-z8k52
+3m5s        Normal    SuccessfulCreate          replicaset/nginx-ha-7d744949b7   Created pod: nginx-ha-7d744949b7-84gg2
+3m5s        Normal    SuccessfulCreate          replicaset/nginx-ha-7d744949b7   Created pod: nginx-ha-7d744949b7-slzm6
+3m5s        Normal    SuccessfulCreate          replicaset/nginx-ha-7d744949b7   Created pod: nginx-ha-7d744949b7-phd9s
+3m5s        Normal    SuccessfulCreate          replicaset/nginx-ha-7d744949b7   Created pod: nginx-ha-7d744949b7-cq27n
+51m         Normal    ScalingReplicaSet         deployment/nginx-ha              Scaled up replica set nginx-ha-7d744949b7 from 0 to 20
+8m10s       Normal    NodeNotReady              node/prod-ha-worker              Node prod-ha-worker status is now: NodeNotReady
+78s         Normal    Starting                  node/prod-ha-worker              Starting kubelet.
+78s         Normal    NodeAllocatableEnforced   node/prod-ha-worker              Updated Node Allocatable limit across pods
+78s         Normal    NodeHasSufficientMemory   node/prod-ha-worker              Node prod-ha-worker status is now: NodeHasSufficientMemory
+78s         Normal    NodeHasNoDiskPressure     node/prod-ha-worker              Node prod-ha-worker status is now: NodeHasNoDiskPressure
+78s         Normal    NodeHasSufficientPID      node/prod-ha-worker              Node prod-ha-worker status is now: NodeHasSufficientPID
+78s         Normal    NodeReady                 node/prod-ha-worker              Node prod-ha-worker status is now: NodeReady
+74s         Normal    Starting                  node/prod-ha-worker              

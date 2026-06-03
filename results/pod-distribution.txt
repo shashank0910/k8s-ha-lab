@@ -1,0 +1,21 @@
+NAME                        READY   STATUS    RESTARTS   AGE   IP            NODE              NOMINATED NODE   READINESS GATES
+nginx-ha-7d744949b7-2cr8c   1/1     Running   0          42m   10.244.3.14   prod-ha-worker2   <none>           <none>
+nginx-ha-7d744949b7-2f5np   1/1     Running   0          42m   10.244.3.7    prod-ha-worker2   <none>           <none>
+nginx-ha-7d744949b7-59d4t   1/1     Running   0          42m   10.244.4.14   prod-ha-worker    <none>           <none>
+nginx-ha-7d744949b7-7zmzn   1/1     Running   0          42m   10.244.4.7    prod-ha-worker    <none>           <none>
+nginx-ha-7d744949b7-8qjlq   1/1     Running   0          42m   10.244.3.10   prod-ha-worker2   <none>           <none>
+nginx-ha-7d744949b7-9bs7h   1/1     Running   0          42m   10.244.3.12   prod-ha-worker2   <none>           <none>
+nginx-ha-7d744949b7-9tml4   1/1     Running   0          42m   10.244.4.16   prod-ha-worker    <none>           <none>
+nginx-ha-7d744949b7-9tn6q   1/1     Running   0          42m   10.244.3.9    prod-ha-worker2   <none>           <none>
+nginx-ha-7d744949b7-b8bj5   1/1     Running   0          42m   10.244.4.15   prod-ha-worker    <none>           <none>
+nginx-ha-7d744949b7-cmtrd   1/1     Running   0          42m   10.244.4.11   prod-ha-worker    <none>           <none>
+nginx-ha-7d744949b7-fjwjv   1/1     Running   0          42m   10.244.4.10   prod-ha-worker    <none>           <none>
+nginx-ha-7d744949b7-fz6bx   1/1     Running   0          42m   10.244.4.12   prod-ha-worker    <none>           <none>
+nginx-ha-7d744949b7-j5f9k   1/1     Running   0          42m   10.244.3.16   prod-ha-worker2   <none>           <none>
+nginx-ha-7d744949b7-kbwrm   1/1     Running   0          42m   10.244.3.11   prod-ha-worker2   <none>           <none>
+nginx-ha-7d744949b7-nxzfv   1/1     Running   0          42m   10.244.4.9    prod-ha-worker    <none>           <none>
+nginx-ha-7d744949b7-pdjqc   1/1     Running   0          42m   10.244.4.13   prod-ha-worker    <none>           <none>
+nginx-ha-7d744949b7-rrj2q   1/1     Running   0          42m   10.244.3.13   prod-ha-worker2   <none>           <none>
+nginx-ha-7d744949b7-sd597   1/1     Running   0          42m   10.244.4.8    prod-ha-worker    <none>           <none>
+nginx-ha-7d744949b7-sm5w2   1/1     Running   0          42m   10.244.3.8    prod-ha-worker2   <none>           <none>
+nginx-ha-7d744949b7-tcvcx   1/1     Running   0          42m   10.244.3.15   prod-ha-worker2   <none>           <none>
